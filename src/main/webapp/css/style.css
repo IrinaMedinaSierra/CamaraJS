@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+}
+
+#camara{
+    width: 100%;
+    height: auto;
+    border: black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#photo-galery{
+    display: flex;
+    flex-wrap: wrap;  /*organizar segun contenedor y si tiene que bajar el contenido a otra linea..lo sigue organizando*/
+    gap: 10px;
+}
+
+.photo{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo-container{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.photo-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.photo-buttons button, button{
+    background: rgb(2,0,36);
+    background: linear-gradient(340deg, rgba(2,0,36,1) 0%, rgba(4,30,66,1) 18%, rgba(133,155,159,1) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 2px;
+}
+.photo-buttons .delete-photo{
+    background: rgba(255,0,0,0.7);
+}
+.enVivo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+}
+hr{
+   height: 20px;
+    background: rgb(32,34,34);
+    background: linear-gradient(162deg, rgba(32,34,34,1) 0%, rgba(74,117,20,1) 100%);
+
+}
+
