@@ -19,8 +19,9 @@
         <button id="take-photo">Tomar Foto</button>
         <button id="clear-photo">Borrar todas las Fotos</button>
     </p>
-    <hr>
-    <h2>Galería de Fotos</h2>
+
+    <h2 class="borde">Galería de Fotos</h2>
+
     <div id="photo-galery"></div>
 </div>
 </body>
